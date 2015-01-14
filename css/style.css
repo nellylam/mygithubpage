@@ -505,20 +505,57 @@
 				}
 
 	/* Skills */
+	.skilltype
+	{
+		padding: 0;
+	}
 	.skill
 	{
 		padding-top: 1em;
+		padding-left: 0;
 		font-size: .9em;
 	}
 
-	.skill > p
+	.skill > li
 	{
 		margin-bottom: 0;
+		padding-top: 0;
 
 	}
 	.skillset
 	{
 		height: 3em;
+	}
+
+	/* History */
+	.history ul
+	{
+		margin: 0;
+	}
+	.history ul li
+	{
+		text-align: left;
+		padding-left: 0.2em;
+		padding-right: 0.2em;
+	}
+  .firm, .school
+	{
+		font-size: 1em;
+		color: #333;
+		display: inline;
+	}
+	.time
+	{
+		font-size: .75em;
+		color: #333;
+		text-align: right;
+		display: inline;
+	}
+	.desc
+	{
+		font-size: .75em;
+		color: #777;
+		padding: 0;
 	}
 
 /*********************************************************************************/
